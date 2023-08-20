@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "64b22938f7c8223ce5377f28"
+  },
+  "first_name": "Smit",
+  "last_name": "Butani",
+  "name": "Smit Butani",
+  "email": "smit@gmail.com",
+  "role": "admin",
+  "password": "$2a$12$eV/8ASQQO7fN5g4r//Y.IuCxpGcuR9ud/RWs2GMYg2B9rb9kpcHiS",
+  "__v": 0,
+  "permissions": "64b22c0dc464eb2835350651"
+},
+{
+  "_id": {
+    "$oid": "64b22d54c464eb283535068e"
+  },
+  "first_name": "Giacomo",
+  "last_name": "Parsons",
+  "name": "Giacomo Parsons",
+  "email": "sybywybada@mailinator.com",
+  "role": "user",
+  "permissions": "64b22d10c464eb2835350667",
+  "password": "$2a$12$UiczARd3LXxk9hE/2XNZb.iu1ww9/Asc.AM3srAmUmBgti1YRr.sC",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b23cc0c464eb283535092c"
+  },
+  "first_name": "Clayton",
+  "last_name": "Holcomb",
+  "name": "Clayton Holcomb",
+  "email": "coma@mailinator.com",
+  "role": "admin",
+  "permissions": "64b22c0dc464eb2835350651",
+  "password": "$2a$12$MuWjWiQxfjn1uO0ef.3CZeVMmENpux2HrFjrO5jWiH..hGxdg336O",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b256f71c7a84196a8cf342"
+  },
+  "first_name": "Ross",
+  "last_name": "Justice",
+  "name": "Ross Justice",
+  "email": "jilebybu@mailinator.com",
+  "role": "user",
+  "permissions": "64b22d10c464eb2835350667",
+  "password": "$2a$12$W2xymJZGZz3lMtMFpJGVyONKkB7IEj145Rgd/jqI3Brz09ftD/g2m",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b6be4f69c07ff928ff2224"
+  },
+  "first_name": "Conan",
+  "last_name": "Maldonado",
+  "name": "Conan Maldonado",
+  "email": "notuhacig@mailinator.com",
+  "role": "admin",
+  "permissions": "64b22c0dc464eb2835350651",
+  "password": "$2a$12$zLg5EnO/DoXW/4dA7X4H/e/FSkByUd3EOPGtxMypvAG1zt01FRf2O",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b6be6b69c07ff928ff2256"
+  },
+  "first_name": "Adele",
+  "last_name": "Hobbs",
+  "name": "Adele Hobbs",
+  "email": "xikobalof@mailinator.com",
+  "role": "admin",
+  "permissions": "64b22c0dc464eb2835350651",
+  "password": "$2a$12$F6hdP25yfO5uxR1w8Oz/1OkJitkqp6m22ar6db3HkDGaH8Pwg7bGK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e0b8a3448efadf5cc807a5"
+  },
+  "first_name": "test",
+  "last_name": "test",
+  "name": "test test",
+  "email": "test@gmail.com",
+  "role": "user",
+  "permissions": "64b22d10c464eb2835350667",
+  "password": "$2a$12$PkdLDe9ETvNDOkCx6yRCV.J.2RADGXn6.S4JeKJ1Nw.S86BT2IwB2",
+  "__v": 0
+}]

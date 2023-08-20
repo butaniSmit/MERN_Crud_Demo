@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "64b22c0dc464eb2835350651"
+  },
+  "role": "admin",
+  "permissions": [
+    "add-uset",
+    "view-user",
+    "delete-user",
+    "edit-user"
+  ],
+  "allPermissions": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b22d10c464eb2835350667"
+  },
+  "role": "user",
+  "permissions": [
+    "view-user",
+    "edit-user"
+  ],
+  "allPermissions": [],
+  "__v": 0
+}]
