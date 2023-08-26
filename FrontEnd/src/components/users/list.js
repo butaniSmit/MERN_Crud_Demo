@@ -121,15 +121,17 @@ const UserList = () => {
         const data = {
             first_name: AllData.first_name,
             last_name: AllData.last_name,
-            email: AllData.email,
-            password: AllData.password,
             confirmpassword: AllData.confirmpassword,
+            email: AllData.email,
             role: AllData.role
+        }
+        if(AllData.password!==''){
+            data.password=AllData.password
         }
         const form = e.currentTarget;
         if (form.checkValidity() === false) {
             setValidated(true);
-        } else if (AllData.password !== AllData.confirmpassword) {
+        } else if (AllData.password !== AllData.confirmpassword && AllData.password !=='') {
             setConfirmPasswordError("The confirm password and new password must match.");
         }
         else {
@@ -277,7 +279,6 @@ const UserList = () => {
                             <Form.Group>
                                 <Form.Label>Password<span className="text-danger"> * </span></Form.Label>
                                 <Form.Control
-                                    required
                                     type="password"
                                     name="password"
                                     value={AllData.password || ''}
@@ -300,7 +301,6 @@ const UserList = () => {
                             <Form.Group>
                                 <Form.Label>Confirm Password<span className="text-danger"> * </span></Form.Label>
                                 <Form.Control
-                                    required
                                     type="password"
                                     name="confirmpassword"
                                     value={AllData.confirmpassword || ''}

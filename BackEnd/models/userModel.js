@@ -65,11 +65,12 @@ userSchema.pre('save', async function(next) {
   userSchema.pre('updateOne', async function(next) {
     // Only run this function if password was actually modified
     const data = this.getUpdate()
-
-    data.password = await bcrypt.hash(data.password, 12);
-    // this.update({}, data).exec()
-    // Delete passwordConfirm field 
-    data.confirmpassword = undefined;
+    if(data.password){
+      data.password = await bcrypt.hash(data.password, 12);
+      // this.update({}, data).exec()
+      // Delete passwordConfirm field 
+      data.confirmpassword = undefined;
+    }
     next();
   });
 
