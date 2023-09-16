@@ -58,8 +58,10 @@ const UserList = () => {
             <td>{item.role}</td>
             <td>
                 <span className="fa fa-eye logoicon viewicon view" onClick={() => ViewItem(item._id)} />
+                {item.email!=='smit@yopmail.com'?
                 <span className="fa fas fa-edit logoicon editicon edit" onClick={() => handleShow(item)}></span>
-                {item._id !== Cookies.get("loginid")? 
+                :null}
+                {item._id !== Cookies.get("loginid") && item.email!=='smit@yopmail.com'? 
                 <span className="fa fa-trash logoicon deleteicon delete" onClick={() => DeleteItem(item._id)} />
                 :null}
             </td>
