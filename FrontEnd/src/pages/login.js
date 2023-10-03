@@ -15,8 +15,8 @@ const Login = () => {
     const [EmailError, setEmailError] = useState('');
     const [error, setError] = useState('');
     const [PasswordError, setPasswordError] = useState('');
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+    const [username, setUsername] = useState('smit@yopmail.com');
+    const [password, setPassword] = useState('abcd@1234');
     const [validated, setValidated] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
     function onChangeUsername(e) {
