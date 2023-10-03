@@ -5,14 +5,15 @@ const jwt =require('jsonwebtoken');
 const AppError = require('./../utils/appError');
 const rolesModel = require('../models/rolesModel');
 const bcrypt= require('bcryptjs');
+
 const signToken = id => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN
+    expiresIn: process.env.JWT_EXPIRES_COOKIES
   });
 };
 const createSendToken = (user, statusCode, res) => {
   const token = signToken(user._id);
-  const day = process.env.JWT_EXPIRES_IN
+  const day = process.env.JWT_COOKIE_EXPIRES_IN
   const cookieOptions = {
     expires: new Date(
       Date.now() + day * 24 * 60 * 60 * 1000

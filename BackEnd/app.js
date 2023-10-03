@@ -18,7 +18,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:3001",
-      "http://localhost:3000"
+      "http://localhost:3000",
+      "https://mern-crud-demo-p6sf.vercel.app"
     ],
     methods: ["GET","POST","DELETE","PATCH"],
     allowedHeaders: ["X-Requested-With", "content-type"],
