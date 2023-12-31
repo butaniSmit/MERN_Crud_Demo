@@ -53,3 +53,5 @@ BackEnd/package-lock.json
 FrontEnd/.env
 FrontEnd/.next
 FrontEnd/package-lock.json
+FrontEnd/.env
+BackEnd/.env
